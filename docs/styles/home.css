@@ -18,7 +18,7 @@ section ,div
     flex-direction: column;
     gap: 24px;
 }
- ul ,h2
+ h2
 {
     text-align: center;
     color: #000000;
@@ -48,7 +48,7 @@ h1
     color: #ffffff;
 }
 
-button
+#nn button
 {
     background-color: #4CAF50;
     border: none;
@@ -69,4 +69,48 @@ audio
     border-radius: 8px;
     background: #ffffff;
     box-shadow: #412b2b;
+}
+.m0d img
+{
+    display: grid;
+   justify-self: center;
+    width: 1000px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px #ccc;
+}
+.m0d
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.mp3-player
+{
+    max-width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.f01 button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+   
+}
+.f01 button:hover
+{
+  
+    background-color: #3c12ad;
 }
